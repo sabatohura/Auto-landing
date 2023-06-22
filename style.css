@@ -1,0 +1,155 @@
+:root{
+
+    /* global styles  */
+
+    /* colors */
+    --dark-color: #1F2937;
+    --button-colors: #3882F6;
+    --primary-color: #F9FAF8;
+    --secondary-color: #E5E7EB;
+
+    /* font size  */
+    --f-size-extra-bigger:48px;
+    --f-size-big:36px;
+    --f-size-medium:24px;
+    --f-size-normal:18px; 
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* fonts  */
+.italic
+{
+    font-style: italic;
+}
+.extra-bold
+{
+    font-weight: 800;
+}
+.extra-big{
+    font-size: var(--f-size-extra-bigger);
+}
+.font-light {
+    font-weight: 300;
+}
+.size-big
+{
+    font-size: var(--f-size-big);
+}
+.size-medium
+{
+    font-size: var(--f-size-medium);
+}
+.size-normal
+{
+    font-size: var(--f-size-normal);
+}
+
+/* bg-colors  */
+.dark-bg
+{
+    background-color: var(--dark-color);
+}
+.gray-light-bg
+{
+    background-color: var(--secondary-color);
+}
+
+/* text colors  */
+.dark-text
+{
+    color: var(--dark-color);
+}
+.button-color
+{
+    background-color: var(--button-colors);
+}
+.primary-text
+{
+    color: var(--primary-color);
+}
+.secondary-text
+{
+    color: var(--secondary-color);
+}
+
+#header {
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-between;
+}
+section
+{
+    padding: 70px 200px;
+}
+.nav-link-list
+{
+    list-style-type: none;
+}
+.nav-link ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav ul li a
+{
+    color: var(--primary-color)!important;
+}
+
+/* hero  */
+#herosection
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-text-div
+{
+    width: 400px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+}
+.button
+{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.button-div
+{
+    margin: 0;
+    padding: 0;
+}
+#explore-btn
+{
+    border-color: var(--button-colors);
+}
+#hero-img-size
+{
+    height: 250px;
+}
+#footer
+{
+    text-align: center;
+    align-self: center;
+    padding: 30px 200px;
+}
+
+#info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
