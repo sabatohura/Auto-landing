@@ -185,3 +185,16 @@ nav ul li a
     justify-content: center;
 }
 
+#author
+{
+    display: flex;
+    justify-content: end;
+}
+
+#quotesection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
